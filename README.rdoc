@@ -3,25 +3,26 @@
 === Clone Base
   git clone https://github.com/mostlyclicks/ref_base211.git new_project_name
 
-== cd into new_project_name dir
+=== cd into new_project_name dir
 
-== Create new db user and db
+=== Create new db user and db
   createuser newdbuser
   createdb -O newdbuser -Eutf8 new_project_name
 
-== Sublime - Modify YML file to relect newdbuser and project
+=== Modify YML file to relect newdbuser and project
+  in text editor
 
-== bundle install
+=== bundle install
 
-== rake db:migrate
+=== rake db:migrate
 
-== rake db:seed
+=== rake db:seed
 
-== git add .
+=== git add .
 
-== git commit -m 'modify YML'
+=== git commit -m 'modify YML'
 
-== Set new git remote origin
+=== Set new git remote origin
   1. Create new repo on github
   2. git remote set-url origin git://new.url.here
   
