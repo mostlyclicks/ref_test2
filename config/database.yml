@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: virq10_work_development
+  database: ref_base211_development
   pool: 5
-  username: virq10_work
+  username: ref_base211
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: virq10_work_test
+  database: ref_base211_test
   pool: 5
-  username: virq10_work
+  username: ref_base211
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: virq10_work_production
+  database: ref_base211_production
   pool: 5
-  username: virq10_work
+  username: ref_base211
   password:
