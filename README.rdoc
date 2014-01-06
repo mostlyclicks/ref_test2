@@ -1,6 +1,6 @@
 == Refinery Base, Rails 3.2.15, RefineryCMS 2.1.1
 
-== Clone Base
+= Clone Base
   git clone https://github.com/mostlyclicks/ref_base211.git new_project_name
 
 == cd into new_project_name dir
