@@ -10,6 +10,7 @@
  *
  *= require refinery/formatting
  *= require refinery/theme
+ *= require bootstrap
  *= require_self
  *= require_tree .
  */
