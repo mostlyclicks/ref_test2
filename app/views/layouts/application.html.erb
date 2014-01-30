@@ -8,9 +8,18 @@
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
     <div id="page_container">
+
       <header id="header">
-        <%= render "/refinery/header" -%>
+        <!-- see /refinery/headers for options for headers above xs -->
+        <div class="hidden-xs"><%= render "/refinery/headers/header_nobg" -%></div>
+                              <%#= render "/refinery/headers/header_fixed_top" -%>
+                              <%#= render "/refinery/headers/header_navbar_default" -%>
+                              <%#= render "/refinery/headers/header_nobg" -%>
+
+        <!-- default xs nav -->
+        <div class="visible-xs"><%= render "/refinery/headers/header_fixed_top" -%></div>
       </header>
+
       <section id="page">
         <%= yield %>
       </section>

@@ -1,0 +1,18 @@
+// Options for hero image top margin based on header type
+$header-nobg-hero :-72px;
+$header-navbar-default :-21px;
+$header-navbar-default-over :-92px;
+$header-fixed-top:51px;
+
+#hero-image {
+  height:450px;
+  background-image:url('hero.jpg');
+  background-position-y:50%;
+  background-position-x:50%;
+  text-align:center;
+  margin-top:$header-navbar-default-over;// <--- choose from header options above
+}
+
+.navbar.navbar-header {
+  background-color:blue;
+}
